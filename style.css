@@ -1,0 +1,155 @@
+*{
+	margin:0;
+	padding:0;
+}
+biblioteca::before{
+	display: block;
+	content: "BIBLIOTECA";
+    color: white;
+    text-align: center;
+	width:60%;
+	margin: 20px auto;
+	font-weight: bold;
+	font-family: system-ui;
+	font-size: 1.5em;
+	padding: 0.5em;
+	background-color: #194b4b;
+	border-radius: 5px;		
+}
+biblioteca{
+	background-color: #f1f6fa;
+	line-height: 1.3em;
+	font-family: Helvetica;
+	font-size: 1.2em;
+    display: block;
+}
+tema{
+    display: block;
+    background-color: bisque;
+    width:80%;
+	padding: 1em;
+	margin: 20px auto;
+    border-radius: 2px;
+}
+libro{
+	display: inline-table;
+	padding: 1em;
+	background: #353535;
+	width: 200px;
+	height: 100px;
+	color: #fff;
+	border-radius: 2%;
+	margin-top: 40px;
+    	margin-left: 40px;
+}
+
+titulo{
+	display: block;
+    color: white;
+    text-align: center;
+	width:60% auto;
+	margin: 5px auto;
+	font-family: system-ui;
+	font-size: 1em;
+	padding: 0.5em;
+	background-color: #194b4b;
+	border-radius: 5px;	
+}
+
+autor{
+    display: block;
+    font-family: system-ui;
+    text-align: center;
+}
+autor::before{
+    display: block;
+    content: "Autor: ";
+    font-weight: bold;
+    margin: 0%;
+    font-size: 1em;
+    font-family: system-ui;
+}
+pag{
+	display: block;
+    font-family: system-ui;
+    text-align: center;
+}
+pag::before{
+    display: block;
+    content: "Página: ";
+    font-weight: bold;
+    margin: 0%;
+    font-size: 1em;
+    font-family: system-ui;
+
+}
+localizacion{
+	display: block;
+    font-family: system-ui;
+    text-align: center;
+}
+localizacion::before{
+    display: block;
+    content: "Localización: ";
+    font-weight: bold;
+    margin: 0%;
+    font-size: 1em;
+    font-family: system-ui;
+
+}
+isbn{
+	display: block;
+    font-family: system-ui;
+    text-align: center;
+}
+isbn::before{
+    display: block;
+    content: "ISBN: ";
+    font-weight: bold;
+    margin: 0%;
+    font-size: 1em;
+    font-family: system-ui;
+
+}
+anioEdicion{
+	display: block;
+    font-family: system-ui;
+    text-align: center;
+}
+anioEdicion::before{
+    display: block;
+    content: "Año de Edición: ";
+    font-weight: bold;
+    margin: 0%;
+    font-size: 1em;
+    font-family: system-ui;
+
+}
+edicion{
+	display: block;
+    font-family: system-ui;
+    text-align: center;
+}
+edicion::before{
+    display: block;
+    content: "Edición: ";
+    font-weight: bold;
+    margin: 0%;
+    font-size: 1em;
+    font-family: system-ui;
+
+}
+editorial{
+	display: block;
+    font-family: system-ui;
+    text-align: center;
+}
+editorial::before{
+    display: block;
+    content: "Editorial: ";
+    font-weight: bold;
+    margin: 0%;
+    font-size: 1em;
+    font-family: system-ui;
+
+}

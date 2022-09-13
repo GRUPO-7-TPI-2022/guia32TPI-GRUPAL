@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #194b4b;
+    height: 100vh;
+    width: 100vw;
+}
+.enlace {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+a {
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+}
+.nGrupo {
+    margin-bottom: 10px;
+    font-size: xx-large;
+    color: black;
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+button {
+    background-color: #2b8f8fee;
+    color: white;
+    font-family: system-ui;
+    border-radius: 5px;
+
+}
+

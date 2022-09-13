@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<?xml-stylesheet href="style.css" type="text/css"?>
+
+<biblioteca> 
+    <tema name="Calculo Diferencial">
+        <libro>
+            <titulo>Ecuaciones Diferenciales Schaum</titulo>
+            <autor>
+                <nombre>Manuel Edenilson</nombre>
+                <apellido>Romero Cañas</apellido>
+            </autor>
+            <edicion>3°Edicion</edicion>
+            <editorial>Mc Graw Hill</editorial>
+            <anioEdicion>1998</anioEdicion>
+            <pag>398</pag>
+            <serie></serie>
+            <localizacion>B22</localizacion>
+            <isbn type="13">978-3-16-148410-0</isbn>
+        </libro>
+    </tema>
+
+    <tema name="Ciencia ficcion">
+        <libro>
+            <titulo>OBRAS SELECTAS JULIO VERNE</titulo>
+            <autor>
+                <nombre>Julio</nombre>
+                <apellido>Verne</apellido>
+            </autor>
+            <edicion>1er Edicion</edicion>
+            <editorial>Edimat libros</editorial>
+            <anioEdicion>2000</anioEdicion>
+            <pag>1000</pag>
+            <serie> </serie>
+            <localizacion>B22</localizacion>
+            <isbn type="10">8484036367</isbn>
+        </libro>
+    </tema>
+
+</biblioteca> 

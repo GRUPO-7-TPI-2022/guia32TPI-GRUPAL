@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?> 
-
-<!ELEMENT ficha (libro*)>
-<!ELEMENT libro (autor,titulo,subtitulo,edicion,editorial,anioEdicion,pag,serie,localizacion)>
+<!--biblioteca.dtd-->
+<!ELEMENT biblioteca (tema+)>
+<!ELEMENT tema (libro+)>
+<!ELEMENT libro (titulo,autor,subtitulo?,edicion,editorial,anioEdicion,pag,serie,localizacion,isbn)>
 <!ELEMENT autor (nombre+,apellido+)>
 
 <!ELEMENT nombre (#PCDATA)>
@@ -9,3 +10,14 @@
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT subtitulo (#PCDATA)>
 <!ELEMENT edicion (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT anioEdicion (#PCDATA)>
+<!ELEMENT pag (#PCDATA)>
+<!ELEMENT serie (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT localizacion (#PCDATA)>
+
+<!ATTLIST ficha num CDATA #REQUIRED>
+<!ATTLIST tema name CDATA #REQUIRED>
+<!ATTLIST isbn type CDATA #REQUIRED>
+
